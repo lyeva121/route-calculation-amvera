@@ -1,0 +1,11 @@
+meta:
+  environment: nodejs
+  toolchain:
+    name: npm
+    version: "20"
+build: {}
+run:
+  scriptName: server.js
+  containerPort: "3000"
+  zeroDowntime: true
+  singleton: false
